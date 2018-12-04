@@ -1,0 +1,9 @@
+int suma(int suma){
+if(num ==0){
+return 0;
+}
+return num+suma(num-1);
+}
+
+
+

@@ -1,0 +1,65 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+int i=10;
+while(i>=10){
+
+
+
+ int zmienna;
+ cout << "wprowadz zmienna" << endl;
+    cin >> zmienna;
+
+    if ( (zmienna>=3 &&zmienna<=4)||((zmienna>=6)&&(zmienna<=11) ) ||((zmienna>=15)&& (zmienna<=17) ) ){
+        cout<<"liczba:"<<zmienna<< " spelnia warunek"<<endl;
+
+    }
+    else{
+        cout<< "zmienna niespelnia warunku"<<endl;
+    }
+    int w = i -1 ;
+    cout<<"pozostalo:"<< w <<" prob"<<endl;
+i--;
+}
+}
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  cout<<"program sprawdzi czy liczby naleza do zakresu"<<endl;
+int i=0;
+while(i<=20){
+
+
+
+    if (i<10){
+    cout<<" ";
+    }
+    if ( (i>=3 &&i<=4)||((i>=6)&&(i<=11) ) ||((i>=15)&& (i<=17) ) ){
+        cout<<i<< " tak"<<endl;
+
+    }
+    else{
+        cout<<i<< " nie"<<endl;
+    }
+
+
+i++;
+}
+return 0;
+}

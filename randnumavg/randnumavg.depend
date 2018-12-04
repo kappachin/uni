@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1542194808 source:g:\uni c++\randnumavg\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+

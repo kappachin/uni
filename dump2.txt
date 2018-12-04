@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+cout<<"1 lub 2"<<endl;
+int wyb;
+cin>>wyb;
+
+switch(wyb){
+
+case 2:
+for(int col=0;col<10;col++){
+    cout<<string((10-col), '#')<<endl;
+}
+break;
+
+case 1 :
+for(int col=0;col<10;col++){
+    cout<<string(col, '#')<<endl;
+
+}
+break;
+
+
+
+}
+
+
+return 0;
+}
