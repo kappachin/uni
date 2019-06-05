@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1548162679 source:e:\roboczy\marcel bugaj\program2\main.cpp
+	<iostream>
+	<fstream>
+	<stdio.h>
+	<stdlib.h>
+
